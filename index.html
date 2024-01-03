@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css">  -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" /> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+
+
+
+<body>
+   
+    <div id="heading" >
+        <div>
+            <p>
+                The Ultimate Typing Test
+            </p>
+            
+        </div>
+    </div>
+     <div id="select-box">
+        <label for="level">Choose level : </label>
+        <select name="level" id="level">
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+        </select>
+        
+        <label for="time">Choose Time : </label>
+        <select name="time" id="time">
+            <option value="60">60s</option>
+            <option value="120">120s</option>
+            <option value="300">300s</option>
+        </select>
+        <button id="start-test" >Start Test </button>
+        
+     </div>
+
+    <div id="sentenceBox">
+        <!-- <p style="position: relative;left:0px;" id="time-left"></p> -->
+        <p style="margin: 0 auto; overflow: hidden;" id="time-left"></p>
+        <button id="sentence" hidden></button>
+        <!-- <textarea id="userTyping"></textarea> -->
+        
+    </div> 
+    
+    
+    
+    
+    <!-- <div id="content" >
+        Did you know the word essay is derived from a Latin word 'exagium', which roughly translates to presenting one’s case? So essays are a short piece of writing representing one’s side of the argument or one’s experiences, stories, etc. Essays are very personalized. So let us learn about types of essays, format, and tips for essay-writing.
+        <button id="try_again">Try Again</button>
+        <h2>Time : <span id="time">60</span> </h2>
+        <h2>Correct : <span id="correct">0</span></h2>
+        <h2>Wrong : <span id="wrong">0</span></h2>
+
+
+    </div> -->
+    
+
+
+     
+
+
+<script src="./index.js"></script>
+
+
+
+</body>
+
+</html>
